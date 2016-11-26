@@ -20,7 +20,7 @@ int main() {
 	cout << "checked protobuf version\n";
 	Smeshalist tool = Smeshalist::GetInstance();
 cout << "After getting instance\n";
-	srand(time(NULL));
+	//srand(time(NULL));
 
 	cout << "Before loop\n";
 	for (int i = 0; i < N; i++){
