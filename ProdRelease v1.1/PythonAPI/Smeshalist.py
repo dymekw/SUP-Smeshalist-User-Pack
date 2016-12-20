@@ -24,7 +24,7 @@ def getInstance(portNumber, hardReset):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         # Send 
-	sock.settimeout(2)
+        sock.settimeout(2)
         message = structs_pb2.MessageInfo()
         if hardReset == True:
             message.type = structs_pb2.MessageInfo.HARD_RESET

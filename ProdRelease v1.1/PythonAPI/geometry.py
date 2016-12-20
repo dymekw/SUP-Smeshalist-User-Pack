@@ -14,8 +14,8 @@ class Vertex:
     """Class which provides internal application format for vertex structure. Objects consist of Point3D point and properties: quality, label and groupId"""
     def __init__(self, point):
         """Class constructor for Vertex object. As a param it takes Point3D object point"""
-	self.point = point
-	self.quality = 0.0
+        self.point = point
+        self.quality = 0.0
         self.label = ""
         self.groupId = 0 
 
